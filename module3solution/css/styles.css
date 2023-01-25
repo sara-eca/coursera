@@ -1,9 +1,37 @@
 .row {
-  margin-bottom: 15px;
-  border: 2px solid red;
-  background-color: gray;
+  padding-right: 30px;
+  padding-left: 30px;
+
+
+
 }
 .row > div {
-  border: 2px solid red;
+  border: 2px solid black;
   background-color: gray;
+  margin-bottom: 15px;
+}
+
+h1{ /* points (pt) are used in print, not screen.*/
+	text-align: center;  
+}
+
+p{
+  	margin-top: 10px;
+  	color: black; 
+  	text-align: left;
+}
+
+div#container {
+	background-color: gray;
+  	position: relative;
+  	border-style: solid;
+    border-top-width: 10px;
+    border-bottom-width: 0px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: white;
+}
+
+#p1 {
+  text-align: center;
 }
