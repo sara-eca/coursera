@@ -1,9 +1,6 @@
 .row {
-  padding-right: 30px;
-  padding-left: 30px;
-
-
-
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .row > div {
   border: 2px solid black;
@@ -11,14 +8,26 @@
   margin-bottom: 15px;
 }
 
-h1{ /* points (pt) are used in print, not screen.*/
-	text-align: center;  
+#h2{ /* points (pt) are used in print, not screen.*/
+	font-family: 'Comic Neue', cursive;
+	font-size: 35px;
+	font-weight: bold;
+	color: black;
+}
+
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 2px solid black;
+  border-left-color: gray;
+  border-right-color: gray;
 }
 
 p{
   	margin-top: 10px;
   	color: black; 
   	text-align: left;
+  	font-family: 'Comic Neue', cursive;
 }
 
 div#container {
@@ -34,4 +43,38 @@ div#container {
 
 #p1 {
   text-align: center;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#h{
+	font-family: 'Comic Neue', cursive;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f8d8dd;
+  border: 1px solid black;
+}
+
+#nav-list a:hover {
+  background: gray;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
 }
